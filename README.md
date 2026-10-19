@@ -15,7 +15,7 @@ The scripts cover molecular dynamics (MD) simulations, dihedral angle analysis, 
 | `ACFandCMEst.py` | Extracts data from molecular dynamics simulations and calculates autocorrelation functions and cumulative mean statistics. |
 | `DistributionExt.py` | Extracts dihedral angle data from MD simulations and calculates the probability density distributions for the selected dihedral angles. |
 | `DistributionVis.py` | Visualizes the dihedral angle probability density distributions for the six dihedrals. |
-| `MDStats.py` | Calculates statistical descriptors of the dihedral angle distributions, including mean deviation, $P(15^\circ)$, $(P(30^\circ)$, and confidence intervals. |
+| `MDStats.py` | Calculates statistical descriptors of the dihedral angle distributions, including mean deviation, $P(15^\circ)$, $P(30^\circ)$, and confidence intervals. |
 | `Rotation.py` | Rotates each selected dihedral in each molecule to generate two conformational conditions: planar $(0^\circ)$ and twisted $(90^\circ)$. |
 | `RunxTB.py` | Performs GFN2-xTB calculations for each molecule under both conformational conditions and extracts the corresponding HOMO and LUMO energies. |
 | `SimCode.lmp` | Defines the LAMMPS workflow for simulating 150 molecular complexes through three main stages: heating, cooling, and data collection. |
